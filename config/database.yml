@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-template' %>
+<% project_name = 'graffiti-gladiator-rails-api-template' %>
 
 default: &default
   adapter: postgresql
