@@ -1,0 +1,3 @@
+UPDATE battles
+SET url='http://twistedsifter.files.wordpress.com/2014/07/banksy-87.jpg?w=800&h=500'
+WHERE title='Pulp Fiction Banana';

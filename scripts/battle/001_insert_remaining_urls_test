@@ -1,0 +1,5 @@
+UPDATE battles
+SET url='http://twistedsifter.files.wordpress.com/2014/07/banksy-107.jpg?w=716&h=800'
+WHERE title='No Stopping';
+SET url='http://twistedsifter.files.wordpress.com/2014/07/banksy-122.jpg?w=800&h=600'
+WHERE title='Arm Chair Living';
