@@ -19,6 +19,7 @@ class BattlesController < OpenReadController
   # POST /examples
   # POST /examples.json
   def create
+    p current_user
     @battle = current_user.battles.build(battle_params)
 
     if @battle.save
@@ -51,7 +52,7 @@ class BattlesController < OpenReadController
   end
 
   def battle_params
-    params.require(:battle).permit(:text)
+    params.require(:battle).permit(:title, :artist, :location, :description, :url, :date_photographed, :comment)
   end
 
   private :set_battle, :battle_params
