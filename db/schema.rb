@@ -27,7 +27,8 @@ ActiveRecord::Schema.define(version: 20161201194320) do
     t.string  "comment"
   end
 
-  create_table "examples", force: :cascade do |t|
+  create_table
+  "examples", force: :cascade do |t|
     t.text     "text",       null: false
     t.integer  "user_id",    null: false
     t.datetime "created_at", null: false
