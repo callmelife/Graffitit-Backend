@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 20161201194320) do
     t.string  "artist"
     t.string  "location"
     t.date    "date_photographed"
-    t.string  "url",               limit: 300
     t.integer "user_id"
     t.string  "comment"
   end

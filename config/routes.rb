@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   post '/sign-in' => 'users#signin'
   delete '/sign-out/:id' => 'users#signout'
   patch '/change-password/:id' => 'users#changepw'
-  resources :users, only: [:index, :show, :create, :destroy, :update]
+# Was instructed by John to change the following line to the one below it
+# resources :users, only: [:index, :show, :create, :destroy, :update]
+  resources :battles, only: [:index, :show, :create, :destroy, :update]
 
-  resources :battles
 end
