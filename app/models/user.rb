@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 class User < ActiveRecord::Base
   include Authentication
-  has_many :battles
+  has_many :battles, dependent: :destroy
 end
