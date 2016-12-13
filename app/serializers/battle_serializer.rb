@@ -1,3 +1,3 @@
 class BattleSerializer < ActiveModel::Serializer
-  attributes :id, :url, :comment
+  attributes :url, :comment
 end
