@@ -1,7 +1,9 @@
 #!/bin/bash
 
-API="http://localhost:4741"
+API="https://graffiti-gallery.herokuapp.com"
 URL_PATH="/sign-up"
+EMAIL="575@575.com"
+PASSWORD="1"
 curl "${API}${URL_PATH}" \
   --include \
   --request POST \
