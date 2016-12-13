@@ -52,7 +52,7 @@ class BattlesController < OpenReadController
   end
 
   def battle_params
-    params.require(:battle).permit(:title, :artist, :location, :description, :url, :date_photographed, :comment)
+    params.require(:battle).permit(:url, :comment)
   end
 
   private :set_battle, :battle_params
